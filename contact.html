@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Us</title>
+        <meta charset="UTF-8">
+        <meta name="Author" content="thingcarz">
+        <link rel="icon" href="img/Logo.jpeg" type="images/icon">
+        <link rel="stylesheet" href="contact.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Contact Us
+            </h1>
+            <nav aria-labelledby="contacts">
+                <h3 id="contacts">Navigate</h3>
+                <ul>
+                    <li>
+                        <a class="short" href="/">Home</a>
+                    </li>
+                    <li>
+                        <a class="short" href="/#about">About</a>
+                    </li>
+                    <li>
+                        <a class="short" href="/#catalog">Catalog</a>
+                    </li>
+                    <li>
+                        <a class="short" href="hours.html">Store Hours</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+
+                <figure>
+                    <img src="img/G63.heic" alt="logog" width="250" height="186" loading="eager" title="G63">
+                    <figcaption>G63</figcaption>
+                </figure>
+                <hr>
+            <article id="contact">
+                <h2>Our Contact Form</h2>
+                <form action="https://httpbin.org/post" method="post">
+                    <fieldset>
+                        <legend>Send Us a Message</legend>
+                        <p>
+                            <label for="Name">Name :</label>
+                            <input type="text" name="Name" id="Name" placeholder="Your Name" autocomplete="on" required autofocus>
+                        </p>
+                        <p>
+                            <label for="Email">Email :</label>
+                            <input type="email" name="Email" id="Email" placeholder="Your Email" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="Message">Your Message :</label>
+                            <br>
+                            <textarea name="Message" cols="30" rows="10" placeholder="Type Your Message Here!"></textarea>
+                        </p>
+                    </fieldset>
+                    <br>
+                    <button type="submit">Sumbit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </article>
+            <article>
+                <h3>Our Location</h3>
+                <address>
+                    Asper Jillus
+                    <br>
+                    NYC, States
+                    <br>
+                    273749
+                </address>
+                <p>
+                    Phone : <a href="tel:+2345678987">+2345678987</a>
+                </p>
+                <p>
+                    <a href="#">Back to Top</a>
+                </p>
+            </article>
+            <hr>
+            <p>
+                Copyright &copy; thingcarz
+            </p>
+        </main>
+    </body>
+</html>
